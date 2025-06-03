@@ -79,7 +79,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 35px;
   margin-top: 10px;
 }
 
@@ -95,7 +95,9 @@ header {
   box-shadow: 0px 0px 2px 2px #c2663d;
   transform: scale(1.1);
 }
-
+.main-music p {
+  margin-bottom: 10px;
+}
 footer {
   text-align: center;
 }
@@ -135,13 +137,29 @@ header h1::after {
   main {
     width: 100vw;
   }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
 
+  p {
+    font-size: 1.2rem;
+  }
+
+  .main-gallery {
+    gap: 20px;
+  }
   .main-gallery img {
     width: 45%;
   }
 
+  .main-music {
+    text-align: center;
+  }
   video {
-    width: 400px;
+    width: 95%;
     height: 300px;
   }
 }
