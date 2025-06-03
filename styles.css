@@ -125,3 +125,23 @@ header h1::before {
 header h1::after {
   content: " 🎂";
 }
+
+/* Media Screens */
+
+@media screen and (max-width: 450px) {
+  * {
+    font-size: 14px;
+  }
+  main {
+    width: 100vw;
+  }
+
+  .main-gallery img {
+    width: 45%;
+  }
+
+  video {
+    width: 400px;
+    height: 300px;
+  }
+}
